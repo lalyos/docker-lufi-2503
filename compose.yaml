@@ -1,0 +1,9 @@
+services:
+  coffee:
+    image: web:git
+    environment:
+    - TITLE=Coffebreak
+    - COLOR=cyan
+    - BODY=todo
+    ports:
+    - 80
