@@ -1,6 +1,8 @@
 services:
   coffee:
     image: web:git
+    build:
+      context: https://github.com/lalyos/docker-lufi-2503.git
     environment:
     - TITLE=Coffebreak
     - COLOR=cyan
